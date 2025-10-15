@@ -1,0 +1,6 @@
+{
+  "package_name": "my_service_interfaces",
+  "non_idl_tuples": [
+    "/home/dexforint/ROS2_study/ros2_service/src/my_service_interfaces:srv/SetVelocity.srv"
+  ]
+}

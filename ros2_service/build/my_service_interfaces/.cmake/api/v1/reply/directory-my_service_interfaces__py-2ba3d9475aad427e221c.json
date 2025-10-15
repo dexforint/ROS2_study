@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_service_interfaces__py",
+		"source" : "/home/dexforint/ROS2_study/ros2_service/build/my_service_interfaces/my_service_interfaces__py"
+	}
+}
