@@ -1,9 +1,11 @@
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/__init__.py
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/turtle_figure8.py
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/turtle_mover.py
+/home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/turtle_pose_follower.py
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/__pycache__/__init__.cpython-312.pyc
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/__pycache__/turtle_figure8.cpython-312.pyc
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/__pycache__/turtle_mover.cpython-312.pyc
+/home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/__pycache__/turtle_pose_follower.cpython-312.pyc
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/share/ament_index/resource_index/packages/my_turtle_controller
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/share/my_turtle_controller/package.xml
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info/zip-safe
@@ -15,3 +17,4 @@
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info/top_level.txt
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/my_turtle_controller/turtle_figure8
 /home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/my_turtle_controller/turtle_mover
+/home/dexforint/ROS2_study/ros2_ws2/install/my_turtle_controller/lib/my_turtle_controller/turtle_pose_follower

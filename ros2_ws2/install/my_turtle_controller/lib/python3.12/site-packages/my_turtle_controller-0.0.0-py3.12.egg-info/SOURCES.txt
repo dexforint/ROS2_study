@@ -11,6 +11,7 @@ setup.py
 my_turtle_controller/__init__.py
 my_turtle_controller/turtle_figure8.py
 my_turtle_controller/turtle_mover.py
+my_turtle_controller/turtle_pose_follower.py
 resource/my_turtle_controller
 test/test_copyright.py
 test/test_flake8.py
