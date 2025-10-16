@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_action_interface__py",
+		"source" : "/home/dexforint/ROS2_study/simple_action/build/my_action_interface/my_action_interface__py"
+	}
+}
