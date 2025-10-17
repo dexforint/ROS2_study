@@ -42,7 +42,7 @@ class SummCalculateActionServer(Node):
 
     def execute_callback(self, goal_handle):
         """
-        Вызывается при принятии цели.
+        Вызывается при выполнении цели.
         """
         self.get_logger().info("Начинаем вычисление суммы...")
 
