@@ -1,4 +1,0 @@
-[console_scripts]
-client = my_turtle_action.client:main
-number_publisher = my_turtle_action.publisher_node:main
-server = my_turtle_action.server:main

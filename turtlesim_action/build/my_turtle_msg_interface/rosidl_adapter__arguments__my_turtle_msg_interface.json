@@ -1,6 +1,0 @@
-{
-  "package_name": "my_turtle_msg_interface",
-  "non_idl_tuples": [
-    "/home/dexforint/ROS2_study/turtlesim_action/src/my_turtle_msg_interface:msg/Numbers.msg"
-  ]
-}
