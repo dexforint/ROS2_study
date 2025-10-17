@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_turtle_msg_interface/msg/Numbers",
+      "fields": [
+        {
+          "name": "a",
+          "type": {
+            "type_id": 4,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "b",
+          "type": {
+            "type_id": 4,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_turtle_msg_interface/msg/Numbers",
+      "hash_string": "RIHS01_c57d2bc88d85c3c0bb6c16e11fd0b83679dfbdfa5debac0f57b8db5df75840e2"
+    }
+  ]
+}

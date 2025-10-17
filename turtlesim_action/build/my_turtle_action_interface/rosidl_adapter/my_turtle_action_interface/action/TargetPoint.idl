@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_turtle_action_interface/action/TargetPoint.action
+// generated code does not contain a copyright notice
+
+
+module my_turtle_action_interface {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct TargetPoint_Goal {
+      int16 a;
+
+      int16 b;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct TargetPoint_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct TargetPoint_Feedback {
+      int16 left_to_result;
+    };
+  };
+};

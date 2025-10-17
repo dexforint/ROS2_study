@@ -1,0 +1,32 @@
+[0.727s] Invoking command in '/home/dexforint/ROS2_study/turtlesim_action/src/my_turtle_action': PYTHONPATH=/home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtle_action build --build-base /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build install --record /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/install.log --single-version-externally-managed install_data
+[0.866s] running egg_info
+[0.875s] writing ../../build/my_turtle_action/my_turtle_action.egg-info/PKG-INFO
+[0.875s] writing dependency_links to ../../build/my_turtle_action/my_turtle_action.egg-info/dependency_links.txt
+[0.876s] writing entry points to ../../build/my_turtle_action/my_turtle_action.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../build/my_turtle_action/my_turtle_action.egg-info/requires.txt
+[0.876s] writing top-level names to ../../build/my_turtle_action/my_turtle_action.egg-info/top_level.txt
+[0.895s] reading manifest file '../../build/my_turtle_action/my_turtle_action.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../../build/my_turtle_action/my_turtle_action.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] copying my_turtle_action/client.py -> /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build/lib/my_turtle_action
+[0.896s] copying my_turtle_action/server.py -> /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build/lib/my_turtle_action
+[0.896s] copying my_turtle_action/publisher_node.py -> /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build/lib/my_turtle_action
+[0.896s] running install
+[0.899s] running install_lib
+[0.909s] copying /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build/lib/my_turtle_action/client.py -> /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action
+[0.909s] copying /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build/lib/my_turtle_action/server.py -> /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action
+[0.909s] copying /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build/lib/my_turtle_action/publisher_node.py -> /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action
+[0.910s] byte-compiling /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action/client.py to client.cpython-312.pyc
+[0.911s] byte-compiling /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action/server.py to server.cpython-312.pyc
+[0.912s] byte-compiling /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action/publisher_node.py to publisher_node.cpython-312.pyc
+[0.912s] running install_data
+[0.912s] running install_egg_info
+[0.923s] removing '/home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action-0.0.0-py3.12.egg-info' (and everything under it)
+[0.923s] Copying ../../build/my_turtle_action/my_turtle_action.egg-info to /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages/my_turtle_action-0.0.0-py3.12.egg-info
+[0.924s] running install_scripts
+[0.988s] Installing client script to /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/my_turtle_action
+[0.989s] Installing number_publisher script to /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/my_turtle_action
+[0.989s] Installing server script to /home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/my_turtle_action
+[0.989s] writing list of installed files to '/home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/install.log'
+[1.005s] Invoked command in '/home/dexforint/ROS2_study/turtlesim_action/src/my_turtle_action' returned '0': PYTHONPATH=/home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dexforint/ROS2_study/turtlesim_action/install/my_turtle_action/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtle_action build --build-base /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/build install --record /home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action/install.log --single-version-externally-managed install_data

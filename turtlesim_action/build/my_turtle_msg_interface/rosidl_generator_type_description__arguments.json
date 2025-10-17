@@ -1,0 +1,7 @@
+{
+  "package_name": "my_turtle_msg_interface",
+  "output_dir": "/home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_msg_interface/rosidl_generator_type_description/my_turtle_msg_interface",
+  "idl_tuples": [
+    "/home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_msg_interface/rosidl_adapter/my_turtle_msg_interface:msg/Numbers.idl"
+  ]
+}

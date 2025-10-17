@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-848aaa9c1d35a121e24d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "my_turtle_action_interface__py",
+					"jsonFile" : "directory-my_turtle_action_interface__py-2c955aa0cff9435c24c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action_interface/my_turtle_action_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_turtle_action_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_turtle_action_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_turtle_action_interface_egg-b8a188130b10002d86d3.json",
+					"name" : "ament_cmake_python_build_my_turtle_action_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_turtle_action_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_turtle_action_interface-c450cdf2e597073cb720.json",
+					"name" : "ament_cmake_python_copy_my_turtle_action_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface-3c31c48a5113e44fa716.json",
+					"name" : "my_turtle_action_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__cpp-ed6973f1a1daa0ee029b.json",
+					"name" : "my_turtle_action_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_turtle_action_interface__py::@cb6fb49e19fe650f3a88",
+					"jsonFile" : "target-my_turtle_action_interface__py-95e70e76c26c7536aee7.json",
+					"name" : "my_turtle_action_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_generator_c-a87eecb3a3cbb97861b4.json",
+					"name" : "my_turtle_action_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_generator_py-3a72aae5a8457b46adaa.json",
+					"name" : "my_turtle_action_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_generator_type_description-afd860e0dc9f75936624.json",
+					"name" : "my_turtle_action_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_typesupport_c-a25a10434f04548ffbf5.json",
+					"name" : "my_turtle_action_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_typesupport_cpp-e8d3d528bce28a7be928.json",
+					"name" : "my_turtle_action_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_typesupport_fastrtps_c-ca87305177ce135b4f8c.json",
+					"name" : "my_turtle_action_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_typesupport_fastrtps_cpp-85848ecb1178afada407.json",
+					"name" : "my_turtle_action_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_typesupport_introspection_c-2b295c9978a3b4052a55.json",
+					"name" : "my_turtle_action_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface__rosidl_typesupport_introspection_cpp-00ee23e8baf8a31fa2c8.json",
+					"name" : "my_turtle_action_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface_s__rosidl_typesupport_c-e14e961905435813a4b5.json",
+					"name" : "my_turtle_action_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface_s__rosidl_typesupport_fastrtps_c-9284613ceae960c77f70.json",
+					"name" : "my_turtle_action_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface_s__rosidl_typesupport_introspection_c-86340beb08520008c8fc.json",
+					"name" : "my_turtle_action_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_action_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_action_interface_uninstall-726cae42a9e6bdaae9fe.json",
+					"name" : "my_turtle_action_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9af0f049dfd3864a1f85.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dexforint/ROS2_study/turtlesim_action/build/my_turtle_action_interface",
+		"source" : "/home/dexforint/ROS2_study/turtlesim_action/src/my_turtle_action_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
