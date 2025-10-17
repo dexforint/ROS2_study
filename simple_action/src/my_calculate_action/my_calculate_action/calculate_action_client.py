@@ -13,6 +13,7 @@ class SummCalculateActionClient(Node):
         super().__init__('summ_calculate_action_client')
         self._action_client = ActionClient(self, SummCalculate, 'summ_calculate')
         self._goal_handle = None
+        self._pending_goal_handle = None
         self._subscription = self.create_subscription(
             Numbers,
             'numbers_topic',
@@ -27,7 +28,11 @@ class SummCalculateActionClient(Node):
         """
         a = msg.a
         b = msg.b
-        self.send_goal(a, b)
+        if a == 0 and b == 0:
+            self.get_logger().info("Получена команда отмены задачи.")
+            self.cancel_goal()
+        else:
+            self.send_goal(a, b)
 
     def send_goal(self, a, b):
         """
@@ -48,17 +53,39 @@ class SummCalculateActionClient(Node):
         )
         send_goal_future.add_done_callback(self.goal_response_callback)
 
+    def cancel_goal(self):
+        """
+        Запрос на отмену текущей задачи.
+        """
+        if self._goal_handle is None:
+            self.get_logger().info("Нет активной задачи для отмены!")
+            return
+
+        self.get_logger().info("Отправляем запрос на отмену...")
+        cancel_future = self._goal_handle.cancel_goal_async()
+        cancel_future.add_done_callback(self.cancel_done)
+
+    def cancel_done(self, future):
+        cancel_response = future.result()
+        if len(cancel_response.goals_canceling) > 0:
+            self.get_logger().info("Задача отменена успешно.")
+        else:
+            self.get_logger().info("Не удалось отменить задачу.")
+        self._goal_handle = None
+
     def goal_response_callback(self, future):
         """
         Вызывается, когда сервер принял (или отклонил) goal.
         """
-        self._goal_handle = future.result()
-        if not self._goal_handle.accepted:
+        self._pending_goal_handle = future.result()
+        if not self._pending_goal_handle.accepted:
             self.get_logger().info("Задача отклонена сервером!")
-            self._goal_handle = None
+            self._pending_goal_handle = None
             return
 
         self.get_logger().info("Задача ПРИНЯТА сервером!")
+        self._goal_handle = self._pending_goal_handle
+        self._pending_goal_handle = None
 
         # Ждём итог (Result)
         self._get_result_future = self._goal_handle.get_result_async()
@@ -86,13 +113,13 @@ class SummCalculateActionClient(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = SummCalculateActionClient()
+    client = SummCalculateActionClient()
     try:
-        rclpy.spin(node)  # Обработка всех колбэков
+        rclpy.spin(client)  # Обработка всех колбэков
     except KeyboardInterrupt:
-        node.get_logger().info("Остановка сервера по Ctrl+C")
+        client.get_logger().info("Остановка сервера по Ctrl+C")
     finally:
-        node.destroy_node()
+        client.destroy_node()
         rclpy.shutdown()
 
 

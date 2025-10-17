@@ -22,10 +22,9 @@ class NumberPublisherNode(Node):
         """
         try:
             while rclpy.ok():
-                user_input = input("Введите два числа (например, '5 10') или 'q' для выхода: ").strip()
-                
+                user_input = input("Введите два числа (например, '5 10') или '0 0' для отмены задачи: ").strip()
                 if user_input.lower() == 'q':
-                    self.get_logger().info('Завершение работы по вводу "q".')
+                    self.get_logger().info('Завершение работы.')
                     break
 
                 # Парсим ввод пользователя
@@ -36,7 +35,10 @@ class NumberPublisherNode(Node):
 
                 # Публикуем сообщение
                 self.publisher_.publish(msg)
-                self.get_logger().info(f'Опубликованы числа: a={a}, b={b}')
+                if a == 0 and b == 0:
+                    self.get_logger().info("Опубликована команда отмены задачи.")
+                else:
+                    self.get_logger().info(f'Опубликованы числа: a={a}, b={b}')
 
         except (ValueError, EOFError):
             self.get_logger().warn("Некорректный ввод! Попробуйте снова.")

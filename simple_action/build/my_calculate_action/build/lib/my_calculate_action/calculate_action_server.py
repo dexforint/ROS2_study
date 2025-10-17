@@ -26,6 +26,7 @@ class SummCalculateActionServer(Node):
             'summ_calculate',  # имя действия в ROS
             execute_callback=self.execute_callback,
             goal_callback=self.goal_callback,
+            cancel_callback=self.cancel_callback,
         )
 
         self.get_logger().info("SummCalculate Action Server Запущен!")
@@ -79,6 +80,13 @@ class SummCalculateActionServer(Node):
         result = SummCalculate.Result()
         result.success = True
         return result
+
+    def cancel_callback(self, goal_handle):
+        """
+        Вызывается при запросе отмены задачи.
+        """
+        self.get_logger().warn("Получен запрос на отмену!")
+        return CancelResponse.ACCEPT
 
 
 def main(args=None):
