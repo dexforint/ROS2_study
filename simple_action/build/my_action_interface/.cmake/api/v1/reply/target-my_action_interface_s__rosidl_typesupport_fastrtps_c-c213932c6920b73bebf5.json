@@ -628,12 +628,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 70,
-			"id" : "my_action_interface__py::@cc7ba15745c6d7dbdff8"
-		},
-		{
 			"backtrace" : 9,
 			"id" : "my_action_interface__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "my_action_interface__py::@cc7ba15745c6d7dbdff8"
 		},
 		{
 			"backtrace" : 9,

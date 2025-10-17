@@ -1,0 +1,3 @@
+[console_scripts]
+calculate_action_client = my_calculate_action.calculate_action_client:main
+calculate_action_server = my_calculate_action.calculate_action_server:main
